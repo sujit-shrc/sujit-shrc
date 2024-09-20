@@ -4,7 +4,6 @@
 # Last updated: 2024-09-20
 
 ➜ fastfetch
-
         ,
        /\             sujit@archlinux
       /  \            --------------------
@@ -13,7 +12,6 @@
    /   ,,   \         WM: i3 (x11) 🪟
   /   |  |  -\        Editor: Neovim 📜
  /_-''    ''-_\       --------------------
-
 
 ➜ cat << EOF
 # Hello, I'm Sujit Kumar
