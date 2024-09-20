@@ -6,18 +6,19 @@
 ➜ fastfetch
 
         ,
-       /\         sujit@archlinux
-      /  \        --------------------
-     /\   \       OS: Arch Linux (btw) x86_64 🐧
-    /      \      Shell: fish 3.7.1, with Alacritty + Starship 🚀
-   /   ,,   \     WM: i3 (x11) 🪟
-  /   |  |  -\    Editor: Neovim 📜
- /_-''    ''-_\   --------------------
+       /\             sujit@archlinux
+      /  \            --------------------
+     /\   \           OS: Arch Linux (btw) x86_64 🐧
+    /      \          Shell: fish 3.7.1, with Alacritty + Starship 🚀
+   /   ,,   \         WM: i3 (x11) 🪟
+  /   |  |  -\        Editor: Neovim 📜
+ /_-''    ''-_\       --------------------
+
 
 ➜ cat << EOF
 # Hello, I'm Sujit Kumar
 
-Full Stack Developer | CLI Enthusiast | Arch Fanatic 🎉
+Full Stack Developer | CLI Obsessive | Arch Fanatic 🎉
 
 > I craft efficient workflows and wield powerful tools. When I'm not battling bugs, you'll find
   me penning techtales on [dev.to](https://dev.to/sujit-shrc)or fine-tuning my digital habitat.
@@ -36,8 +37,8 @@ cat << EOF
 EOF
 
 ➜ echo -e "\n# System Arsenal (a.k.a. \"Things I Can't Live Without\")"
-declare -A spell_book
-spell_book=(
+declare -A spec_book
+spec_book=(
   ["os"] = "Arch Linux"       # Keep things simple and minimalistic. Thinking about NixOS, though." 🐧
   ["wm"] = "i3"               # Tiling is life. Mouse? Never heard of her.📏
   ["editor"] = "Neovim"       # Vim wasn't hardcore enough. Now I can exit Vim, but I don't want to." 🔧
@@ -48,8 +49,8 @@ spell_book=(
   ["file_manager"] = "yazi"   # Faster than 'cd'. Because life's too short for slow file operations." 🚀
 )
 
-for key in "${!spell_book[@]}"; do
-    printf "%-12s: %s\n" "$key" "${spell_book[$key]}"
+for key in "${!spec_book[@]}"; do
+    printf "%-12s: %s\n" "$key" "${spec_book[$key]}"
 done
 
 ➜ echo -e "\n# Projects (They're Totally Stable, I Swear)"
